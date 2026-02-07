@@ -1,0 +1,6 @@
+server:
+  port: 8080
+
+paygate:
+  weightFilePath: ./config/pg-weights.conf
+  weightReloadIntervalMs: 3000
