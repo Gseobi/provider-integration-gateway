@@ -169,5 +169,6 @@ Backend에서 공통 Response DTO 중심 구조를 유지하는 방향을 기준
 
 ## 11. Documents
 
-- `docs/design-notes.md`
-- `docs/test-report.md`
+- [Design Notes](docs/design-notes.md)
+- [Test Report](docs/test-report.md)
+- [Error Handling Notes](docs/error-handling.md)
