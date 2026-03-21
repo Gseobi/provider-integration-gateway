@@ -183,3 +183,13 @@ Backend 게이트웨이 계층 중심으로 구성할 수 있음을 확인했습
 - 실제 PG 연동 URL, 인증 키, 서명 규칙은 포함하지 않습니다.
 - `ProviderCode.from()`은 미지원 코드 입력 시 `null`을 반환하도록 보완하여, 예외 전파 대신 `INVALID_PG_CODE` 응답으로 처리되도록 정리했습니다.
 - 자동화 테스트 실행 결과 및 스냅샷은 `docs/images/**` 경로에 반영할 수 있습니다.
+
+## 7. Test Report Snapshot
+
+![Test Report Summary](images/test-summary-report.png)
+![Test Paygate Controller](images/test-paygate-controller.png)
+![Test Paygate Service](images/test-paygate-service.png)
+
+## 8. CI Snapshot
+
+![GitHub Actions Pass](images/github-actions-pass.png)
