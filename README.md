@@ -21,6 +21,22 @@
 
 ## 2. Execution Evidence
 
+### Provider Routing Diagram
+
+<div align="center">
+  <img src="docs/images/provider-routing-flow.png" alt="Provider Routing Flow" width="960" />
+</div>
+
+<div align="center">
+  <sub>
+    Source:
+    <a href="docs/diagrams/provider-routing-flow.drawio">draw.io</a> ·
+    <a href="docs/pdf/provider-routing-flow.pdf">PDF</a>
+  </sub>
+</div>
+
+<br/>
+
 ### Verification Summary
 
 | Scenario | Expected Behavior | Result | Evidence |
@@ -34,13 +50,24 @@
 
 ### Test / CI Snapshot
 
-![Test Report Summary](docs/images/test-summary-report.png)
-
-![Test Paygate Controller](docs/images/test-paygate-controller.png)
-
-![Test Paygate Service](docs/images/test-paygate-service.png)
-
-![GitHub Actions Pass](docs/images/github-actions-pass.png)
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="docs/images/test-summary-report.png" alt="Test Report Summary" height="220" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="docs/images/github-actions-pass.png" alt="GitHub Actions Pass" height="220" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="docs/images/test-paygate-controller.png" alt="Test Paygate Controller" height="220" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="docs/images/test-paygate-service.png" alt="Test Paygate Service" height="220" />
+    </td>
+  </tr>
+</table>
 
 ### What This Proves
 
